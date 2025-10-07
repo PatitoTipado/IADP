@@ -10,7 +10,7 @@ const quizData = [
         "preguntas": [
           {
             "id": "p-1759795980106803",
-            "enunciado": "Todas las anteriores son correctas.",
+            "enunciado": "en un proyecto de sotware la relacion gente trabajo:",
             "opciones": [
               "Es una relacion lineal",
               "Es una relacion dependiente.",
@@ -42,7 +42,7 @@ const quizData = [
               "Consiste en dividir en componentes menores para facilitar la planificación y control.",
               "El nivel mas bajo se denomina paquete de trabajo, generalmente se agrupan bajo \"Paquetes de control\"."
             ],
-            "correcta": [1,2,3,4]
+            "correcta": [1,0,3,4]
           },
           {
             "id": "p-1759796104821167",
@@ -435,4 +435,5 @@ function highlightQuestion(questionId, isCorrect) {
             }
         });
     }
+
 }
